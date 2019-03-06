@@ -4,7 +4,7 @@ Zabbix::Discovery::Formatter - Boilerplat formatting for Zabbix Low-Level
 Discovery
 
 # SYNOPSIS
-
+```perl
     use strict;
     use warnings;
     use Zabbix::Discovery::Formatter;
@@ -27,9 +27,10 @@ Discovery
     
     # Prints:
     # {"data":[{"{#HOST}":"Japan 1","{#COUNT}":5},{"{#COUNT}":12,"{#HOST}":"Japan 2"},{"{#HOST}":"Latvia","{#COUNT}":3},{"{#HOST}":"USA 1","{#COUNT}":6}]}
+```
 
 Non object-oriented usage: 
-
+```perl
     use strict;
     use warnings;
     
@@ -45,7 +46,7 @@ Non object-oriented usage:
     
     # Prints:
     # {"data":[{"{#HOST}":"Japan 1","{#COUNT}":5},{"{#COUNT}":12,"{#HOST}":"Japan 2"},{"{#HOST}":"Latvia","{#COUNT}":3},{"{#HOST}":"USA 1","{#COUNT}":6}]}
-    
+```
 
 # DESCRIPTION
 
