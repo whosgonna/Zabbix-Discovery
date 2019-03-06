@@ -29,3 +29,4 @@ cover_db/
 MYMETA.*
 
 /Zabbix-Discovery-Formatter-*
+/dev/*
