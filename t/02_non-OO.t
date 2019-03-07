@@ -17,10 +17,8 @@ my $arr_ref = [
 ];
 
 my $output = zabbix_disco($arr_ref);
-p $output;
 
 $output = zabbix_disco($arr_ref, {pretty => 1});
-p $output;
 
 done_testing;
 exit;

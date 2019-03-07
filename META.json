@@ -66,6 +66,7 @@
    "version" : "0.01",
    "x_contributors" : [
       "Ben Kaufman <whosgonna@users.noreply.github.com>",
+      "Ben Kaufman <ben.kaufman@altigen.com>"
    ],
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }

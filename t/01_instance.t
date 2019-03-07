@@ -37,8 +37,6 @@ is_deeply( $disc2->data, \@arr2, "Data is updated correctly" );
 
 
 my $fmt = $disc2->print(pretty => 1);
-p $fmt;
-
 
 
 done_testing;
