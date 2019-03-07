@@ -1,7 +1,7 @@
 {
-   "abstract" : "It's new $module",
+   "abstract" : "Boilerplat formatting for Zabbix Low-Level  Discovery",
    "author" : [
-      "Ben Kaufman <ben.kaufman@altigen.com>"
+      "Ben Kaufman <ben.whosgonna.com@gmail.com>"
    ],
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.0.10, CPAN::Meta::Converter version 2.150010",
@@ -42,7 +42,7 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008001"
+            "perl" : "5.010"
          }
       },
       "test" : {
@@ -52,6 +52,20 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/whosgonna/Zabbix-Discovery-Formatter/issues"
+      },
+      "homepage" : "https://github.com/whosgonna/Zabbix-Discovery-Formatter",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/whosgonna/Zabbix-Discovery-Formatter.git",
+         "web" : "https://github.com/whosgonna/Zabbix-Discovery-Formatter"
+      }
+   },
    "version" : "0.01",
+   "x_contributors" : [
+      "Ben Kaufman <ben.kaufman@altigen.com>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.27400"
 }
