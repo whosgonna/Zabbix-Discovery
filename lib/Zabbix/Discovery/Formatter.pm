@@ -14,7 +14,7 @@ use JSON;
 
 
 
-our $VERSION = "0.01";
+our $VERSION = "v0.0.2";
 
 ## Will need to provide a built time check of the ArrayRef passed to data
 has data => (
@@ -36,7 +36,7 @@ has pre40 => (
 # When handling data in an OO fashion allow the caller to keep adding
 # data.  This is a convenience method, so the object can be created first,
 # and then rows can be appended easily as the script iterates over data. 
-sub add_row {
+sub add {
     my $self = shift;
     my $row  = shift;
     if ( any { ref } values %$row ) {
@@ -222,7 +222,7 @@ empty array reference for C<< ->data >> or with C<$arra_ref> as << ->data>>.
 Get the array reference stored in the object if there is no argument, replace
 the array reference if there is an argument.
 
-=item add_data
+=item add
 
 Add a new hashref to the arrayref.
 

@@ -68,7 +68,7 @@
          "web" : "https://github.com/whosgonna/Zabbix-Discovery-Formatter"
       }
    },
-   "version" : "0.01",
+   "version" : "v0.0.2",
    "x_contributors" : [
       "Ben Kaufman <whosgonna@users.noreply.github.com>",
       "Ben Kaufman <ben.kaufman@altigen.com>"

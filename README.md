@@ -96,7 +96,7 @@ processing rows from a database in a `while` loop.
     Get the array reference stored in the object if there is no argument, replace
     the array reference if there is an argument.
 
-- add\_data
+- add
 
     Add a new hashref to the arrayref.
 

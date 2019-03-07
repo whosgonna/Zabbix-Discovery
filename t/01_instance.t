@@ -24,7 +24,7 @@ is_deeply( $disc2->data, $arr_ref, "Data is set correctly" );
 
 my $row = { host => 'USA 1', count => 6};
 
-$disc2->add_row($row);
+$disc2->add($row);
 $json = $disc2->print;
 print $disc2->print . "\n";
 
