@@ -42,6 +42,11 @@
       },
       "runtime" : {
          "requires" : {
+            "Exporter" : "0",
+            "JSON" : "0",
+            "List::Util" : "0",
+            "Moo" : "0",
+            "Types::Standard" : "0",
             "perl" : "5.010"
          }
       },
