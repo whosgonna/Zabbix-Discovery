@@ -2,6 +2,8 @@ Revision history for Perl extension Zabbix-Discovery-Formatter
 
 {{$NEXT}}
 
+v0.0.2 2019-03-07T19:10:25Z
+
     - Renamed method 'add_row' to just 'add'. Made sure documentation and tests were consistent
 
 0.01
